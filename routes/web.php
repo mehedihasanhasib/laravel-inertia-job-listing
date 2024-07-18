@@ -17,6 +17,15 @@ use Inertia\Inertia;
 Route::get('/', function(){
     return Inertia::render('Home');
 });
+Route::get('/findjob', function(){
+    return Inertia::render('FindJob');
+});
+Route::get('/aboutus', function(){
+    return Inertia::render('AboutUs');
+});
+Route::get('/recruiter', function(){
+    return Inertia::render('Recruiter');
+});
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
