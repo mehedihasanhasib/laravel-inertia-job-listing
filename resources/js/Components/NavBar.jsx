@@ -5,18 +5,22 @@ const NavBar = () => {
     return (
         <header className="p-4 shadow-md w-full">
             <nav className="flex items-center justify-center gap-[18vw]">
-                <div>
-                    <img src="/logo.svg" alt="" width={"40px"} />
+                <div className="flex items-center">
+                    {/* <img src="/logo.svg" alt="" width={"40px"} /> */}
+                    <h1 className="text-blue-600 font-extrabold text-2xl">JobEntry</h1>
                 </div>
                 <ul className="flex gap-10 justify-center">
-                    <Link href="" className="">
+                    <Link href="" className="hover:text-blue-600">
                         <li>Home</li>
                     </Link>
-                    <Link href="" className="">
+                    <Link href="" className="hover:text-blue-600">
                         <li>Find Jobs</li>
                     </Link>
-                    <Link href="" className="">
+                    <Link href="" className="hover:text-blue-600">
                         <li>About Us</li>
+                    </Link>
+                    <Link href="" className="hover:text-blue-600">
+                        <li>Recruiter</li>
                     </Link>
                 </ul>
                 <div>
